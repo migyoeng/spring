@@ -11,3 +11,11 @@ public class main_controller {
 		return null;
 	}
 }
+
+//controller 외부 클래스로 매핑
+class abc{
+	@GetMapping("/top.do")
+	public String top() {
+		return null;
+	}
+}
